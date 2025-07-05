@@ -1,6 +1,6 @@
 [project]
 name = "libtorrent-windows-dll"
-version = "0.0.1"
+version = "0.0.2"
 description = "Required Windows OpenSSL DLLs for libtorrent"
 readme = "README.md"
 license = "MIT"
