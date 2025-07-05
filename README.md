@@ -1,5 +1,7 @@
 # libtorrent-windows-dll
 
+[![Downloads](https://static.pepy.tech/badge/libtorrent-windows-dll)](https://pepy.tech/project/libtorrent-windows-dll)  [![Pypi Badge](https://img.shields.io/pypi/v/libtorrent-windows-dll.svg)](https://pypi.org/project/libtorrent-windows-dll/) 
+
 
 This package exports OpenSSL dll's for libtorrent.
 
