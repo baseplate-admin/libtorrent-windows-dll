@@ -1,15 +1,16 @@
 [project]
 name = "libtorrent-windows-dll"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.0.1"
+description = "Required Windows DLLs for libtorrent"
 readme = "README.md"
-requires-python = ">=3.13"
+license = "MIT"
+requires-python = ">=3.7"
 dependencies = ["libtorrent==2.0.11"]
 authors = [
     { name = "baseplate-admin", email = "61817579+baseplate-admin@users.noreply.github.com" },
 ]
 classifiers = [
-    "Development Status :: 5 - Stable",
+    "Development Status :: 5 - Production/Stable",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
@@ -23,9 +24,9 @@ classifiers = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/baseplate-admin/test#readme"
-Issues = "https://github.com/baseplate-admin/test/issues"
-Source = "https://github.com/baseplate-admin/test"
+Documentation = "https://github.com/baseplate-admin/libtorrent-windows-dll#readme"
+Issues = "https://github.com/baseplate-admin/libtorrent-windows-dll/issues"
+Source = "https://github.com/baseplate-admin/libtorrent-windows-dll"
 
 [dependency-groups]
 build = ["hatch>=1.14.1"]
@@ -33,3 +34,6 @@ build = ["hatch>=1.14.1"]
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.build]
+packages = ["src/libtorrent"]
