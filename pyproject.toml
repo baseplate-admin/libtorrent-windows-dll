@@ -1,0 +1,35 @@
+[project]
+name = "libtorrent-windows-dll"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["libtorrent==2.0.11"]
+authors = [
+    { name = "baseplate-admin", email = "61817579+baseplate-admin@users.noreply.github.com" },
+]
+classifiers = [
+    "Development Status :: 5 - Stable",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[project.urls]
+Documentation = "https://github.com/baseplate-admin/test#readme"
+Issues = "https://github.com/baseplate-admin/test/issues"
+Source = "https://github.com/baseplate-admin/test"
+
+[dependency-groups]
+build = ["hatch>=1.14.1"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
