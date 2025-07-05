@@ -1,7 +1,7 @@
 [project]
 name = "libtorrent-windows-dll"
 version = "0.0.1"
-description = "Required Windows DLLs for libtorrent"
+description = "Required Windows OpenSSL DLLs for libtorrent"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.7"
